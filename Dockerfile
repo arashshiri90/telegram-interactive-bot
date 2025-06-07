@@ -1,12 +1,11 @@
-FROM python:3.10
+FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY . .
+COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# پورت ساختگی برای ساکت کردن Render
-EXPOSE 8080
+EXPOSE 8080  # پورت ساختگی برای Render
 
 CMD ["python", "bot.py"]
