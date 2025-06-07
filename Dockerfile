@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # پورت ساختگی برای ساکت کردن Render
 EXPOSE 8080
 
-CMD ["python", "main.py"]
+CMD ["python", "bot.py"]
