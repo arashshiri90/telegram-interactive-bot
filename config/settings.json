@@ -1,0 +1,14 @@
+{
+  "buttons": {
+    "main": ["vip", "channel_link", "support"],
+    "vip": ["vip_free", "vip_paid"]
+  },
+  "messages": {
+    "welcome": "سلام! خوش آمدید.",
+    "ask_uid": "لطفاً UID خود را ارسال کنید.",
+    "free_success": "اشتراک رایگان شما فعال شد!",
+    "free_fail": "UID شما یافت نشد.",
+    "paid_instructions": "برای اشتراک پولی، TXID تراکنش را ارسال کنید.",
+    "paid_received": "TXID دریافت شد، پس از بررسی فعال خواهد شد."
+  }
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fa">
+<head><meta charset="utf-8"><title>Dashboard</title></head>
+<body>
+<h1>کاربران VIP</h1>
+<table border="1">
+<tr><th>ID</th><th>User ID</th><th>Plan</th><th>Reference</th></tr>
+{% for user in users %}
+<tr>
+  <td>{{ user['id'] }}</td>
+  <td>{{ user['user_id'] }}</td>
+  <td>{{ user['plan_type'] }}</td>
+  <td>{{ user['reference'] }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
